@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>NCapsulateExtensions.Gulp.TsLint</id>
+        <version>0.0.1</version>
+        <authors>Jeremy Beavon</authors>
+        <projectUrl>https://github.com/jeremybeavon/NCapsulateExtensions.TsLint</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Provides GulpWithTsLint msbuild task that integrates tslint with Visual Studio. Every tslint violation generates an error as part of the build.</description>
+        <dependencies>
+            <dependency id="Ncapsulate.Node" version="0.10.28" />
+            <dependency id="Ncapsulate.Gulp" version="3.6.2.2" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="NCapsulateExtensions.Gulp.TsLint\gulp.tslint.targets" target="build\gulp.tslint.targets" />
+        <file src="NCapsulateExtensions.Gulp.TsLint\bin\Release\Ncapsulate.Gulp.dll" target="lib\net45\Ncapsulate.Gulp.dll" />
+        <file src="NCapsulateExtensions.Gulp.TsLint\bin\Release\Ncapsulate.Node.dll" target="lib\net45\Ncapsulate.Node.dll" />
+        <file src="NCapsulateExtensions.Gulp.TsLint\bin\Release\NCapsulateExtensions.Gulp.TsLint.dll" target="lib\net45\NCapsulateExtensions.Gulp.TsLint.dll" />
+        <file src="NCapsulateExtensions.Gulp.TsLint\bin\Release\NCapsulateExtensions.TsLint.dll" target="lib\net45\NCapsulateExtensions.TsLint.dll" />
+    </files>
+</package>
